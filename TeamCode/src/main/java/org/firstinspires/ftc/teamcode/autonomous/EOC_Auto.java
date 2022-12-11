@@ -30,12 +30,11 @@ import org.openftc.apriltag.AprilTagDetection;
 import org.openftc.easyopencv.OpenCvCamera;
 import org.openftc.easyopencv.OpenCvCameraFactory;
 import org.openftc.easyopencv.OpenCvCameraRotation;
-import org.openftc.easyopencv.OpenCvInternalCamera;
 
 import java.util.ArrayList;
 
 @Autonomous
-public class AprilTagAutonomousInitDetectionExample extends LinearOpMode
+public class EOC_Auto extends LinearOpMode
 {
     OpenCvCamera camera;
     AprilTagDetectionPipeline aprilTagDetectionPipeline;
@@ -52,7 +51,7 @@ public class AprilTagAutonomousInitDetectionExample extends LinearOpMode
     // NOTE: this calibration is for the C920 webcam at 800x448.
     // You will need to do your own calibration for other configurations!
 
-    /**
+    /*
 
      - Change the AprilTags (LEFT, MIDDLE, RIGHT) using your choice of AprilTags
      L-> Google "AprilTags PDF" and find the DotProduct3D PDF
@@ -60,7 +59,7 @@ public class AprilTagAutonomousInitDetectionExample extends LinearOpMode
      - experiment with the values in the Drive functions called near line 205 
      - Feel free to come to me and ask any questions :)
 
-     **/
+     */
 
     double fx = 578.272;
     double fy = 578.272;
@@ -190,15 +189,15 @@ public class AprilTagAutonomousInitDetectionExample extends LinearOpMode
             telemetry.update();
         }
 
-        /**
+        /*
 
                                     -MOVE TO ZONES-
-        
+
         - Switch the values for the autonomous depending on your robot
         - Positives move the motor clockwise, negatives move it counter-clockwise
-        - Specify a power in the drive functions to set the speed of the motors 
-      
-        **/
+        - Specify a power in the drive functions to set the speed of the motors
+
+        */
 
         if (tagOfInterest == null || tagOfInterest.id == LEFT) {
             drive(1150, -1150,1150,-1150,0.5);
