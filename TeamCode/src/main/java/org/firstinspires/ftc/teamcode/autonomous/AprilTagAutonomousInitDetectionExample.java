@@ -193,7 +193,7 @@ public class AprilTagAutonomousInitDetectionExample extends LinearOpMode
         /**
 
         - Switch the values for the autonomous depending on your robot
-        - Positives move the motor forward, negatives move it backward
+        - Positives move the motor clockwise, negatives move it counter-clockwise
 
         **/
 
