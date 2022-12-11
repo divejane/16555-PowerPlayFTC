@@ -203,7 +203,7 @@ public class AprilTagAutonomousInitDetectionExample extends LinearOpMode
             drive(1250,-1250,-1250,1250,0.5);
         }
         else if (tagOfInterest.id == MIDDLE){
-            drive(1150,-1150,11500,-1150,0.5);
+            drive(1150,-1150,1150,-1150,0.5);
         }
         else {
             drive(1150,-1150,1150,-1150,0.5);
