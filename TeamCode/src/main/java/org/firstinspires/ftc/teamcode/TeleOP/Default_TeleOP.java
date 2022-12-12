@@ -42,16 +42,23 @@ public class Default_TeleOP extends LinearOpMode {
       // Put run blocks here.
       while (opModeIsActive()) {
         // Put loop blocks here.
+        
         y = gamepad1.left_stick_y * 0.5;
         x = -gamepad1.left_stick_x * 0.5;
         rx = -gamepad1.right_stick_x * 0.6;
         denominator = JavaUtil.maxOfList(JavaUtil.createListWith(JavaUtil.sumOfList(JavaUtil.createListWith(Math.abs(y), Math.abs(x), Math.abs(rx))), 1));
+        
+        // Chassis Control
         FrontLeft.setPower(-(y + rx + x) / denominator);
         BackLeft.setPower(-((y + rx) - x) / denominator);
         FrontRight.setPower(-((y - x) - rx) / denominator);
         BackRight.setPower(-((y - rx) + x) / denominator);
+        
+        // Slider Control 
         tgtpower = gamepad2.left_stick_y;
         Elevator_Motor.setPower(-tgtpower);
+        
+        // Claw Control 
         if (gamepad2.a) {
           LClaw.setPosition(0.4);
           RClaw.setPosition(0.95);
