@@ -56,8 +56,7 @@ public class EOC_Auto extends LinearOpMode
      - Change the AprilTags (LEFT, MIDDLE, RIGHT) using your choice of AprilTags
      L-> Google "AprilTags PDF" and find the DotProduct3D PDF
      - Change the hardware map using the motor names on your Driver Station
-     - experiment with the values in the Drive functions called near line 205 
-     - Feel free to come to me and ask any questions :)
+     - Experiment with the values in the Drive functions called near line 205 
 
      */
 
