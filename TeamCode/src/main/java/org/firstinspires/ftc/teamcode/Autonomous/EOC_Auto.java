@@ -193,7 +193,7 @@ public class EOC_Auto extends LinearOpMode
 
                                     -MOVE TO ZONES-
 
-        - Switch the values for the autonomous depending on your robot
+        - Switch the encoder values for the drive functions depending on your robot
         - Positives move the motor clockwise, negatives move it counter-clockwise
         - Specify a power in the drive functions to set the speed of the motors
 
