@@ -1,5 +1,5 @@
 // This file needs to be replaced with the BlocksToJava export.
-// This opmode has been broken for years.
+// This opmode has been broken for a while.
 
 package org.firstinspires.ftc.teamcode.TeleOP;
 
