@@ -1,3 +1,6 @@
+// This file needs to be replaced with the BlocksToJava export.
+// This opmode has been broken for years.
+
 package org.firstinspires.ftc.teamcode.TeleOP;
 
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
