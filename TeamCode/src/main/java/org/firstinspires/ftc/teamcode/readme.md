@@ -1,1 +1,1 @@
-<img src="https://cdn2.vectorstock.com/i/1000x1000/28/11/nerd-face-emoji-clever-emoticon-with-glasses-vector-29662811.jpg"/>![image](https://github.com/divejane/Deus-Ex-Maquina-16555/assets/105249833/b679be58-34ab-47e1-8c37-f1003ef72a13)
+![image](https://github.com/divejane/Deus-Ex-Maquina-16555/assets/105249833/83890bee-c1a4-415a-8e5c-89430d15e390)
